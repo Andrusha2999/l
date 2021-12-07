@@ -44,6 +44,15 @@ Capitals['malta '] = 'Valletta'
 
 
 
+
+
+
+
+
+
+
+
+
 Countries = ['Russia', 'France', 'USA', 'Russia']
 for country in Countries:
     if country in Capitals:
