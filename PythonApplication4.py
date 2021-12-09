@@ -10,7 +10,7 @@ Capitals['Taani'] = 'Kopenhaagen'
 Capitals['Malta'] = 'Valletta'
 Capitals['Saksamaa'] = 'Berliin'
 Capitals['Madalmaad'] = 'Amsterdam'
-Capitals['Esti'] = 'Tallinn'
+Capitals['Estonia'] = 'Tallinn'
 Capitals['Austria'] = 'Viin'
 Capitals['Iirimaa'] = 'Dublin'
 Capitals['Poola'] = 'Varssavi'
@@ -38,3 +38,24 @@ for country in Countries:
             dictionary = {input("Sisesta riik"):input("Sisesta pealinn")}
         else:
             print("viga")
+
+
+
+
+
+sonastik={}
+riigid=[]
+linnad=[]
+file=open("riigid_pealinnad.txt","r")
+for line in file:
+    k, v=line.strip().split("-")
+    sonastik[k.strip()]= v.strip()
+    riigid.append(k)
+    linnad.append(sonastik)[k.strip()])
+file.close()
+print.(sonastik)
+print("Riigid: ")
+print(riigid)
+print("Pealinnad: ")
+print(linnad)
+a=input() 
